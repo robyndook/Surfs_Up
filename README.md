@@ -36,7 +36,7 @@ Module 9 Surf's Up with Advanced Data Storage and Retrieval
 ![dec_temps](https://github.com/robyndook/Surfs_Up/blob/d6dbbc602356c8c54aee2e31584bd5eabb96fc5d/Analysis/dec_temps.png)
 
 - **Additional Query Two**
-  - Monthly_df from 8/2016 to 8/2017 so min and max temps
+  - Monthly_df from 9/2016 to 8/2017 so min and max temps
   
 ![monthly_df](https://github.com/robyndook/Surfs_Up/blob/e66784ae093711e8211a11587b4ccc135d8c9eef/Analysis/monthly_df.png)  
   
@@ -48,7 +48,7 @@ The dataset shows the June temps are slightly higher than December temps, but in
 
 Comparing the June and December weather patterns, the temperatures are fairly close. The temperature data is not skewed for either month and is reasonably similar. The dataset supports opening a Surf and Ice Cream shop year-round.
 
-Further comparison for a full year from 8/2016 to 8/2017 shows temps do not drop below 58.0 throughout the year. The additional dataset also supports opening a Surf and Ice Cream shop year-round.
+Further comparison for a full year from 9/2016 to 8/2017 shows temps do not drop below 58.0 throughout the year. The additional dataset also supports opening a Surf and Ice Cream shop year-round.
 
 
 
