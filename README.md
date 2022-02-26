@@ -4,19 +4,44 @@ Module 9 Surf's Up with Advanced Data Storage and Retrieval
 - Using Python, Pandas functions and methods, and SQLAlchemy, filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June and December.
 - Convert temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
 ###### Results
--
--
--
--
+- June total count of items in dataset = 1700 
+  - Mean = 74.9 
+  - Min = 64.0 
+  - Max = 85.0
+  - Standard Deviation = 3.25
+
 ![june_df.describe_d1](https://github.com/robyndook/Surfs_Up/blob/d6dbbc602356c8c54aee2e31584bd5eabb96fc5d/Analysis/june_df.describe_d1.png)
-![june_temps](https://github.com/robyndook/Surfs_Up/blob/d6dbbc602356c8c54aee2e31584bd5eabb96fc5d/Analysis/june_temps.png)
+
+- December total count of items in dataset = 1517 
+  - Mean = 71.0
+  - Min = 56.0
+  - Max = 83.0
+  - Standard Deviation = 3.75
+
 ![dec_df.describe_d2](https://github.com/robyndook/Surfs_Up/blob/d6dbbc602356c8c54aee2e31584bd5eabb96fc5d/Analysis/dec_df.describe_d2.png)
+
+- Comparrison 
+  - Mean (June 74.9, December 71.0) =  December decreased by 3.9
+  - Min (June 64.0, December 56.0) =  December decreased by 8  
+  - Max (June 85.0, December 83.0) =  December decreased by 2
+  - Standard Deviation (June 3.25, December 3.75) =  December increased by .5
+
+- **Additional Query One**
+
+![june_temps](https://github.com/robyndook/Surfs_Up/blob/d6dbbc602356c8c54aee2e31584bd5eabb96fc5d/Analysis/june_temps.png)
+
+- **Additional Query Two**
+
 ![dec_temps](https://github.com/robyndook/Surfs_Up/blob/d6dbbc602356c8c54aee2e31584bd5eabb96fc5d/Analysis/dec_temps.png)
+
+
 ###### Summary
--
--
--
--
+The dataset shows the June temps are slightly higher than December temps, but insignificant.
+
+Comparing the June and December weather patterns, the temperatures are fairly close. The temperature data is not skewed for either month and is reasonably similar. The dataset supports opening a Surf and Ice Cream shop year-round.
+
+
+
 <!--
 Overview of the statistical analysis:
 
